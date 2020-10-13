@@ -4,6 +4,8 @@
   "description": "Website for thetinywebagency.com",
   "main": "index.js",
   "scripts": {
+    "build": "NODE_ENV=production webpack --mode production --progress",
+    "build:dev": "NODE_ENV=development webpack --mode development --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
