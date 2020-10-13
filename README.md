@@ -1,5 +1,5 @@
-# thetinywebagency.github.io
-Website for Thetinywebagency
+# thetinywebagency
+Website for thetinywebagency
 
 ## GitHub Pages
 https://thetinywebagency.github.io/
