@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/thetinywebagency/thetinywebagency.github.io/issues"
   },
-  "homepage": "https://github.com/thetinywebagency/thetinywebagency.github.io#readme"
+  "homepage": "https://github.com/thetinywebagency/thetinywebagency.github.io#readme",
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
 }
