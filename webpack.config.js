@@ -9,7 +9,7 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.s[c]ss$/,
+				test: /\.s[ac]ss$/i,
 				exclude: /node_modules/,
 				use: [
 					'style-loader',
