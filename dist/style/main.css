@@ -29,7 +29,7 @@ main {
   flex-wrap: wrap;
 }
 
-g-col {
+.g-col {
   flex-basis: 100%;
 }
 
