@@ -42,11 +42,3 @@ main {
     flex: 1;
   }
 }
-
-/*
-@media screen and (min-width: 800px) {
-	.g-col {
-		flex: 1;
-	}
-}
-*/
