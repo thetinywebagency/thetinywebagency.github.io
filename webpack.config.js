@@ -7,6 +7,17 @@ module.exports = {
 		main: './src/index.js'
 	},
 	optimization: {
+		// Allow shared and vendor dependencies to be split into separate bundles
+		splitChunks: {
+			chunks: 'all',
+			cacheGroups: {
+				vendors: {
+					test: /[\\/]node_modules[\\/]/i,
+					chunks: 'all',
+					name: 'vendorbundle'
+				}
+			}
+		},
 		// Generate a runtime bundle
 		runtimeChunk: {
 			name: 'runtime'
