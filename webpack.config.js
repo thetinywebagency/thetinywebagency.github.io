@@ -7,9 +7,13 @@ module.exports = {
 		main: './src/index.js'
 	},
 	optimization: {
+		// Generate a runtime bundle
 		runtimeChunk: {
 			name: 'runtime'
 		}
+	},
+	performance: {
+		hints: 'warning'
 	},
 	module: {
 		rules: [
