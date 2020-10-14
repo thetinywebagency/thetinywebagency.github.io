@@ -37,7 +37,7 @@ main {
 .g-col {
   flex-basis: 100%;
 }
-@media screen and (min-width: 800px) {
+@media (min-width: 767px) {
   .g-col {
     flex: 1;
   }
