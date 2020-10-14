@@ -1,4 +1,4 @@
 // Import to allow Webpack to compile SCSS into CSS
-import './scss/main.scss';
+import './scss/main.scss'
 
-console.log("Hello World");
+console.log('Hello World')
