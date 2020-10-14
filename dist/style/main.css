@@ -23,6 +23,11 @@ main {
   display: block;
 }
 
+.g-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .g-row {
   display: flex;
   flex-direction: row;
@@ -32,9 +37,16 @@ main {
 .g-col {
   flex-basis: 100%;
 }
-
 @media screen and (min-width: 800px) {
   .g-col {
     flex: 1;
   }
 }
+
+/*
+@media screen and (min-width: 800px) {
+	.g-col {
+		flex: 1;
+	}
+}
+*/
