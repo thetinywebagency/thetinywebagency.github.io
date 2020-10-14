@@ -7,6 +7,9 @@ html {
   height: 100%;
 }
 
+* {
+  box-sizing: inherit;
+}
 *:before, *:after {
   box-sizing: inherit;
 }
@@ -18,4 +21,20 @@ body {
 
 main {
   display: block;
+}
+
+.g-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+g-col {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .g-col {
+    flex: 1;
+  }
 }
