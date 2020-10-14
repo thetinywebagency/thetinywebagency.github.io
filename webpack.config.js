@@ -6,6 +6,11 @@ module.exports = {
 	entry: {
 		main: './src/index.js'
 	},
+	optimization: {
+		runtimeChunk: {
+			name: 'runtime'
+		}
+	},
 	module: {
 		rules: [
 			{
