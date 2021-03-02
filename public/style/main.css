@@ -45,8 +45,25 @@ main {
 }
 
 .section {
-  padding: 1em;
+  padding: 1em 0 0 1em;
 }
 .section:nth-child(even) {
   background-color: #f5f5f5;
+}
+
+.arrow {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+.arrow--dark {
+  border-bottom: 20px solid #f5f5f5;
+}
+.arrow--light {
+  border-bottom: 20px solid #fff;
 }
