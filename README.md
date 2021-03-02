@@ -4,7 +4,7 @@ Website for thetinywebagency
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## GitHub Pages
-https://thetinywebagency.github.io/
+https://thetinywebagency.github.io/public/index.html
 
 ## Install
 ```
