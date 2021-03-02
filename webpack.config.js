@@ -76,10 +76,10 @@ module.exports = {
     })
   ],
   output: {
-    path: path.resolve(__dirname, './dist/'),
+    path: path.resolve(__dirname, './public/'),
     pathinfo: false,
     publicPath: '/',
     // Set the filename of the bundle using the name of the entry property based on production or development modes
-    filename: env === 'production' ? 'js/min/[name].bundle.min.js' : 'js/[name].bundle.js'
+    filename: env === 'production' ? 'scripts/min/[name].bundle.min.js' : 'scripts/[name].bundle.js'
   }
 }
